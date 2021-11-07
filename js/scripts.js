@@ -61,9 +61,9 @@ $( document ).ready(function() {
 
   });
 
-  let containerD = document.getElementById("circleD");
+  //let containerD = document.getElementById("circleD");
 
-  let circleD = new ProgressBar.Circle(containerD, {
+  /*let circleD = new ProgressBar.Circle(containerD, {
 
     color: '#65DAF9',
     strokeWidth: 8,
@@ -79,7 +79,7 @@ $( document ).ready(function() {
 
     }
 
-  });
+  });*/
 
   // iniciando loaders quando a usuário chegar no elemento
   let dataAreaOffset = $('#data-area').offset();
@@ -94,8 +94,6 @@ $( document ).ready(function() {
       circleA.animate(1.0);
       circleB.animate(1.0);
       circleC.animate(1.0);
-      circleD.animate(1.0);
-
       stop = 1;
     }
 
